@@ -1,0 +1,24 @@
+export const getViewPortState = config => {
+  const width = window.innerWidth;
+  const { mobile, tablet, desktop } = (() =>
+    Object.assign({}, breakpoints, config))();
+  if (width >= mobile && width < tablet) {
+    return 'mobile';
+  }
+  if (width >= tablet && width < desktop) {
+    return 'tablet';
+  }
+  return 'desktop';
+};
+
+export const breakpoints = {
+  // BREAKPOINT FOR STYLED COMPONENTS
+  mobile: 0,
+  tablet: 737,
+  desktop: 1025,
+};
+
+export default {
+  getViewPortState,
+  breakpoints,
+};
