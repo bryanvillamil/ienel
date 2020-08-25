@@ -1,0 +1,46 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Redes de media y baja tensión",
+      "icon": "tower",
+      "description": "Ponemos a su disposición el conocimiento de nuestros profesionales para el diseño y construcción de redes eléctricas en baja y media tensión. Así como el trámite y aprobación de los proyectos ante el operador de red."
+    },
+    {
+      "id": 2,
+      "title": "Iluminación",
+      "icon": "focus",
+      "description": "Para el cumplimiento del reglamento técnico de iluminación y alumbrado público RETILAP, nuestra compañía pone a su disposición los recursos necesarios para el diseño y la construcción de acuerdo a las necesidades de su proyecto."
+    },
+    {
+      "id": 3,
+      "title": "Sistema puesta a tierra",
+      "icon": "light-earth",
+      "description": "Diseñamos, construimos y realizamos el mantenimiento de su sistema de puesta a tierra. Un apropiado sistema de puesta a tierra brinda seguridad y protección a las instalaciones y sus usuarios frente a fallas eléctricas."
+    },
+    {
+      "id": 4,
+      "title": "Sistema protección contra rayos",
+      "icon": "light",
+      "description": "Realizamos diseños e implementamos los sistemas de protección contra descargas atmosféricas (rayos) de acuerdo a la normatividad vigente NTC 4552."
+    },
+    {
+      "id": 5,
+      "title": "Medidas de resistencia y resistividad",
+      "icon": "voltage",
+      "description": "Contamos con los equipos y software necesarios para realizar la caracterización del terreno y/o la medición del sistema de puesta a tierra."
+    },
+    {
+      "id": 6,
+      "title": "Instalacíones internas",
+      "icon": "plug",
+      "description": "Diseñamos y construimos redes eléctricas, de voz y datos , sistemas de automatización y domótica, para instalaciones de uso final en el sector residencial, comercial e industrial. Buscamos soluciones viables, óptimas y a la medida de sus necesidades siguiendo los parámetros establecidos en la normatividad eléctrica vigente, RETIE Y RETILAP. Realizamos mantenimiento preventivo y correctivo en los sistemas eléctricos en general."
+    },
+    {
+      "id": 7,
+      "title": "Calidad de la Energía",
+      "icon": "battery",
+      "description": "La creciente demanda de cargas no lineales como equipos electrónicos, de cómputo e iluminación, incrementan las pérdidas de energía, las cuales se traducen en elevados costos de operación que se pueden reducir como resultado de la evaluación técnica realizada por nuestros profesionales."
+    }
+  ]
+}

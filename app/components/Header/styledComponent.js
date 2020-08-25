@@ -8,7 +8,7 @@ export const HeaderContent = styled.header`
   top: 0px;
   left: 0px;
   width: 100%;
-  z-index: 5;
+  z-index: 99;
   display: flex;
   align-items: center;
   -webkit-box-pack: justify;
@@ -64,6 +64,9 @@ export const HeaderList = styled.ul`
 
 export const HeaderItem = styled.li`
   margin: 1rem 1.8rem;
+  &:last-child {
+    margin: 1rem 0 1rem 1.8rem;
+  }
 `;
 
 export const HeaderLink = styled(Link)`
@@ -85,7 +88,7 @@ export const HeaderLink = styled(Link)`
     transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1) 0.4s;
     background: #000;
   }
-  &.hover,
+  &:hover,
   &.active {
     &:after {
       transform: scale3d(1, 1, 1);

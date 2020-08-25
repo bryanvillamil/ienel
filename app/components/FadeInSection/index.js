@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 
+import { BoxFade } from './styledComponent';
+
 function FadeInSection(props) {
-  const [isVisible, setVisible] = React.useState(false);
+  const [isVisible, setVisible] = useState(false);
 
-  const domRef = React.useRef();
+  const domRef = useRef();
 
-  React.useEffect(() => {
+  useEffect(() => {
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => setVisible(entry.isIntersecting));
     });
@@ -14,17 +16,17 @@ function FadeInSection(props) {
   }, []);
 
   return (
-    <div
+    <BoxFade
       className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
       ref={domRef}
     >
       {props.children}
-    </div>
+    </BoxFade>
   );
 }
 
 FadeInSection.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.object,
 };
 
 export default FadeInSection;

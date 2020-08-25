@@ -35,7 +35,7 @@ function Header({ isSticky, isMobileView }) {
         {isMobileView ? (
           <HeaderMenu>
             <HamburgerIcon open={isOpenMenu} setOpen={onMenuOpen} />
-            <Menu isOpenMenu={isOpenMenu} />
+            <Menu isOpenMenu={isOpenMenu} setIsOpenMenu={setIsOpenMenu} />
           </HeaderMenu>
         ) : (
           <HeaderMenu>
@@ -56,13 +56,13 @@ function Header({ isSticky, isMobileView }) {
                 <HeaderItem>
                   <HeaderLink
                     activeClass="active"
-                    to="ourTeam"
+                    to="ourProjects"
                     spy
                     smooth
                     offset={-100}
                     duration={1000}
                   >
-                    Nuestro Equipo
+                    Nuestros Proyectos
                   </HeaderLink>
                 </HeaderItem>
                 <HeaderItem>

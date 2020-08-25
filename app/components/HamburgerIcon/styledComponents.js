@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.button`
   position: absolute;
   top: 0;
-  right: 0;
+  right: 2%;
   bottom: 0;
   margin: auto 0;
   display: flex;
